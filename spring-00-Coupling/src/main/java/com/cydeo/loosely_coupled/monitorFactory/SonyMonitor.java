@@ -15,4 +15,5 @@ public class SonyMonitor extends Monitor{
         System.out.println("Drawing pixel with Sony");
     }
 
+
 }

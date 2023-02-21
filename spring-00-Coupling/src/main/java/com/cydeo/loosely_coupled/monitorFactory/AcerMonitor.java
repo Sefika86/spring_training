@@ -11,6 +11,7 @@ public class AcerMonitor extends Monitor {
         super(model, manufacturer, size);
     }
 
+
     public void drawPixelAt() {
         System.out.println("Drawing pixel with Acer");
     }
