@@ -1,4 +1,4 @@
-package com.cydeo.looselycoupled.motherboardFactory;
+package com.cydeo.loosely_coupled.motherboardFactory;
 
 public abstract class Motherboard {
 

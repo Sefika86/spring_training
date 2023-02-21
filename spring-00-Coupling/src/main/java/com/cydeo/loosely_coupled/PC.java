@@ -1,8 +1,8 @@
-package com.cydeo.looselycoupled;
+package com.cydeo.loosely_coupled;
 
-import com.cydeo.looselycoupled.caseFactory.Case;
-import com.cydeo.looselycoupled.monitorFactory.Monitor;
-import com.cydeo.looselycoupled.motherboardFactory.Motherboard;
+import com.cydeo.loosely_coupled.caseFactory.Case;
+import com.cydeo.loosely_coupled.monitorFactory.Monitor;
+import com.cydeo.loosely_coupled.motherboardFactory.Motherboard;
 
 public class PC {
     private Case theCase;

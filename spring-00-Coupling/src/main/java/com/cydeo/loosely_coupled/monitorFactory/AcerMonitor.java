@@ -1,4 +1,4 @@
-package com.cydeo.looselycoupled.monitorFactory;
+package com.cydeo.loosely_coupled.monitorFactory;
 
 import lombok.Getter;
 import lombok.Setter;
