@@ -1,15 +1,15 @@
-package com.cydeo.loosely_coupled;
+package com.cydeo.bean_annotation;
 
-import com.cydeo.loosely_coupled.caseFactory.Case;
-import com.cydeo.loosely_coupled.monitorFactory.Monitor;
-import com.cydeo.loosely_coupled.motherboardFactory.Motherboard;
+import com.cydeo.bean_annotation.casefactory.Case;
+import com.cydeo.bean_annotation.monitorfactory.Monitor;
+import com.cydeo.bean_annotation.motherboardfactory.Motherboard;
 
 public class PC {
     private Case theCase;
     private Monitor monitor;
     private Motherboard motherboard;
 
-    public PC(Case theCase, Monitor monitor, Motherboard motherboard) { //this order is important when we create PC object under main method
+    public PC(Case theCase, Monitor monitor, Motherboard motherboard) {
         this.theCase = theCase;
         this.monitor = monitor;
         this.motherboard = motherboard;
@@ -21,6 +21,7 @@ public class PC {
     }
 
     private void drawLogo() {
+        // Fancy graphics
         monitor.drawPixelAt();
     }
 }
