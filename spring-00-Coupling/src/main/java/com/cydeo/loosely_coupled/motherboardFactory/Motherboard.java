@@ -1,6 +1,6 @@
-package com.cydeo.loosely_coupled.motherBoardFactory;
+package com.cydeo.loosely_coupled.motherboardFactory;
 
-public abstract class MotherBoard {
+public abstract class Motherboard {
 
     private String model;
     private String manufacturer;
@@ -8,7 +8,7 @@ public abstract class MotherBoard {
     private int cardSlots;
     private String bios;
 
-    public MotherBoard(String model, String manufacturer, int ramSlots, int cardSlots, String bios) {
+    public Motherboard(String model, String manufacturer, int ramSlots, int cardSlots, String bios) {
         this.model = model;
         this.manufacturer = manufacturer;
         this.ramSlots = ramSlots;

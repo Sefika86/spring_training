@@ -2,14 +2,14 @@ package com.cydeo.loosely_coupled;
 
 import com.cydeo.loosely_coupled.caseFactory.Case;
 import com.cydeo.loosely_coupled.monitorFactory.Monitor;
-import com.cydeo.loosely_coupled.motherBoardFactory.MotherBoard;
+import com.cydeo.loosely_coupled.motherboardFactory.Motherboard;
 
 public class PC {
     private Case theCase;
     private Monitor monitor;
-    private MotherBoard motherboard;
+    private Motherboard motherboard;
 
-    public PC(Case theCase, Monitor monitor, MotherBoard motherboard) {
+    public PC(Case theCase, Monitor monitor, Motherboard motherboard) {
         this.theCase = theCase;
         this.monitor = monitor;
         this.motherboard = motherboard;
