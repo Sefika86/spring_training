@@ -1,4 +1,4 @@
-package com.cydeo.loosely_coupled.motherboardFactory;
+package com.cydeo.looselycoupled.motherboardFactory;
 
 public class AsusMotherboard extends Motherboard {
 

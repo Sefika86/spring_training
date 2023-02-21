@@ -1,4 +1,4 @@
-package com.cydeo.loosely_coupled.caseFactory;
+package com.cydeo.looselycoupled.caseFactory;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package com.cydeo.loosely_coupled.caseFactory;
+package com.cydeo.looselycoupled.caseFactory;
 
 public abstract class Case {
 

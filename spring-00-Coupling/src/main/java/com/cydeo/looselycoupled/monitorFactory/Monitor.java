@@ -1,4 +1,4 @@
-package com.cydeo.loosely_coupled.monitorFactory;
+package com.cydeo.looselycoupled.monitorFactory;
 
 public abstract class Monitor {
     private String model;
