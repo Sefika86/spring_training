@@ -1,4 +1,4 @@
-package com.cydeo.streotype_annotation.monitorfactory;
+package com.cydeo.monitorfactory;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
