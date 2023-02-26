@@ -3,9 +3,6 @@ package com.cydeo;
 import com.cydeo.casefactory.Case;
 import com.cydeo.monitorfactory.Monitor;
 import com.cydeo.motherboardfactory.Motherboard;
-//import com.cydeo.streotype_annotation.casefactory.Case;
-//import com.cydeo.streotype_annotation.monitorfactory.Monitor;
-//import com.cydeo.streotype_annotation.motherboardfactory.Motherboard;
 import lombok.Getter;
 
 @Getter

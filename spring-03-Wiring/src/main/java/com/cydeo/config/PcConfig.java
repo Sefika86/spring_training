@@ -1,4 +1,4 @@
-package com.cydeo.casefactory.config;
+package com.cydeo.config;
 
 import com.cydeo.casefactory.Case;
 import com.cydeo.casefactory.DellCase;
@@ -14,6 +14,7 @@ public class PcConfig {
         return new Dimensions(50,10,10);
     }
 
+    //loosely coupled
 
     @Bean
     public Case caseDell(Dimensions dimensions){
@@ -21,5 +22,7 @@ public class PcConfig {
     }                                                                       //wiring is done automatically
 
 
+    //here we used wiring beans method by using method parameters
+    //the other wiring beans technique is by  calling the method
 
 }

@@ -8,6 +8,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class Dimensions {
+
     private int width;
     private int height;
     private int depth;
