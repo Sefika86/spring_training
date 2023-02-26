@@ -13,16 +13,23 @@ public class PcConfig {
     public Dimensions dimensions(){
         return new Dimensions(50,10,10);
     }
-
     //loosely coupled
 
+
+
+    //WE CAN DO WIRING IN 2 WAYS
+    //1-BY PARAMETERS
+    //2-BY CALLING THE METHOD NAME
     @Bean
     public Case caseDell(Dimensions dimensions){
         return new DellCase("220B", "Dell", "240", dimensions);
-    }                                                                       //wiring is done automatically
+    }                                                                       //wiring is done by using parameters
 
 
-    //here we used wiring beans method by using method parameters
-    //the other wiring beans technique is by  calling the method
+    @Bean
+    public Case caseDell(){
+        return new DellCase("220B", "Dell", "240", dimensions() );
+    }                                                                       //wiring is done by calling the method
+
 
 }
