@@ -1,4 +1,4 @@
-package com.cydeo.streotype_annotation.casefactory;
+package com.cydeo.casefactory;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
