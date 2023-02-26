@@ -30,4 +30,11 @@ public class CommentService {
         commentNotificationProxy.sendComment(comment);  //send email
     }
 
+
+    public void printConfigData(){
+        //print ozzy
+        //print abc123
+        //print url
+    }
+
 }

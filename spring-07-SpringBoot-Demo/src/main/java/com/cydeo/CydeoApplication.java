@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication //this annotation enables==> @Configuration, @ComponentScan, @Component automatically
-public class   CydeoApplication {
+public class CydeoApplication {
 
     public static void main(String[] args) {
 
