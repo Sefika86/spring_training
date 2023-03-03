@@ -10,7 +10,6 @@ import java.util.List;
 @ConfigurationProperties(prefix = "db")
 @Data
 public class DBConfigData {
-
     private String username;
     private String password;
     private List<String> type;

@@ -19,3 +19,5 @@ public class AppConfigData {
     private String url;
 
 }
+
+//another way we dont need this @value anymore==> look at the DBConfigData class
