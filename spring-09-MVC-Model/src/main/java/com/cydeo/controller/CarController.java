@@ -47,7 +47,7 @@ public class CarController {
 
     //localhost:8080/info/honda/2015
     @RequestMapping("/info/{make}/{year}")
-    public String getCarInfo(@PathVariable String make, @PathVariable int year){
+    public String getCarInfo(@PathVariable String make, @PathVariable int year, Model model){
 
         System.out.println(make); //you will see honda on console
         System.out.println(year);  //you will see 2015 on console
