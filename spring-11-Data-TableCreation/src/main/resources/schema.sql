@@ -7,3 +7,5 @@ create table EMPLOYEES(
                           primary key (id)
 
 );
+
+--we will learn this with java(by creating classes) as well
