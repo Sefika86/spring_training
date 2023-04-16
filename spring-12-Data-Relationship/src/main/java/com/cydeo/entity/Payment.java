@@ -34,6 +34,7 @@ public class Payment {
     //Many-to-many
 
     @OneToOne
+    @JoinColumn(name = "payment_details_id")
     private PaymentDetail paymentDetail;
 
 
