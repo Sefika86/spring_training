@@ -33,7 +33,7 @@ public class Payment {
     //Many-to-One
     //Many-to-many
 
-    @OneToOne
+    @OneToOne (cascade = CascadeType.ALL)  //this helps to do the same action in parent and child
     @JoinColumn(name = "payment_details_id")
     private PaymentDetail paymentDetail;
 
