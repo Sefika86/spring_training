@@ -37,6 +37,8 @@ public class Payment {
     @JoinColumn(name = "payment_details_id")
     private PaymentDetail paymentDetail;
 
+    @ManyToOne
+    private Merchant merchant;
 
     //we do not use@AllArgCons because we want id to be assigned by Postgres
     public Payment(LocalDate createdDate, BigDecimal amount, Status paymentStatus) {
