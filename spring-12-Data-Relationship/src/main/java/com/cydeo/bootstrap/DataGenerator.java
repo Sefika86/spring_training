@@ -71,6 +71,7 @@ public class DataGenerator implements CommandLineRunner {
         itemRepository.save(item2);
         itemRepository.save(item3);
 
+
         cartRepository.save(cart1);
         cartRepository.save(cart2);
 
